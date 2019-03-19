@@ -1,5 +1,5 @@
 # source 'https://rubygems.org'
-source 'file:/home/linux/code/resources/rubygems'
+source 'http://10.6.120.227:8081/repository/rubygems-proxy/'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
