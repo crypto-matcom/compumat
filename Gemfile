@@ -1,5 +1,5 @@
-# source 'https://rubygems.org'
-source 'http://10.6.120.227:8081/repository/rubygems-proxy/'
+source 'https://rubygems.org'
+# source 'http://10.6.120.227:8081/repository/rubygems-proxy/'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
@@ -64,3 +64,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'activeadmin'
+
+gem 'nokogiri', ">= 1.10.4"
